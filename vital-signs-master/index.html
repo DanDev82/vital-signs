@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Checking Vitals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="wrapper">
+     <h1 id="myHeading">Check your Vitals</h1>
+      <p>Making a web page interactive</p>       
+        <button id="toggleList" class="btn btn-info btn-block">Hide list</button>
+        <div class="list">
+        <div class="row"> 
+          <div class="col-sm-6 col-md-6">
+            <p class="description">Todo List:</p>
+            <input type="text" class="description form-control">
+            <button class="description btn btn-info btn-block">Change List Description</button>
+          </div>
+
+          <div class="col-sm-6 col-md-6" id="left">
+            
+            <button class="addItemButton btn btn-success btn-block">Add Item</button>
+            <button class="removeItemButton btn btn-danger btn-block">Remove Last Item</button>
+            <input type="text" class="addItemInput form-control" placeholder="Enter your pulse here..." autofocus>
+            <ul>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
